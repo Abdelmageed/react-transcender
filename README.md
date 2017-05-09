@@ -1,4 +1,4 @@
-## React Slingshot
+## React Transcender
 
 
 ### Originally forked from [react-slingshot](https://github.com/coryhouse/react-slingshot)

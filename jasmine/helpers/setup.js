@@ -48,9 +48,13 @@ Object.keys(document.defaultView).forEach((property) => {
 global.navigator = {
   userAgent: 'node.js'
 };
+
+//express server run on test port
 var server = app.listen(config.TEST_PORT, ()=> {
   console.log(`supertest server started at ${config.TEST_PORT}`)
 });
+
+//supertest agent
 global.agent = request.agent(server);
 //global.mongoose = mongoose.connect(config.DATA_URL);
 //documentRef = document;  //eslint-disable-line no-undef

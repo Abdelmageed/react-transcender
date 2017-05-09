@@ -28,4 +28,4 @@ export function reset(done) {
     if (err) throw err;
     done();
   });
-  }
+}
